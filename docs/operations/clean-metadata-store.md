@@ -146,7 +146,8 @@ Datasource cleanup uses the following configuration:
 You can configure the Overlord to periodically delete indexer task logs and associated metadata. During cleanup, the Overlord removes the following:
 * Indexer task logs from deep storage.
 * Indexer task log metadata from the `druid_tasks` and `druid_tasklogs` tables in [metadata storage](../configuration/index.md#metadata-storage). Druid no longer uses the `druid_tasklogs` table, and the table is always empty.
-Set these properties in the `overlord/runtime.properties` file.
+
+To configure cleanup of task logs by the Overlord, set the following properties in the `overlord/runtime.properties` file.
 
 Indexer task log cleanup on the Overlord uses the following configuration:
 - `druid.indexer.logs.kill.enabled`: When `true`, enables cleanup of task logs.
