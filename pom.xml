@@ -115,7 +115,7 @@
         <caffeine.version>2.8.0</caffeine.version>
         <jacoco.version>0.8.7</jacoco.version>
         <hibernate-validator.version>5.3.6.Final</hibernate-validator.version>
-        <httpclient.version>4.5.13</httpclient.version>
+        <httpclient.version>4.5.14</httpclient.version>
         <!-- When upgrading ZK, edit docs and integration tests as well (integration-tests/docker-base/setup.sh) -->
         <zookeeper.version>3.5.10</zookeeper.version>
         <checkerframework.version>2.5.7</checkerframework.version>
