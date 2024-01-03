@@ -87,7 +87,7 @@
              sql/src/main/codegen/includes/*
           -->
         <calcite.version>1.35.0</calcite.version>
-        <confluent.version>6.2.12</confluent.version>
+        <confluent.version>7.5.3</confluent.version>
         <datasketches.version>4.2.0</datasketches.version>
         <datasketches.memory.version>2.2.0</datasketches.memory.version>
         <derby.version>10.14.2.0</derby.version>
